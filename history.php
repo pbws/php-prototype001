@@ -55,9 +55,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#" class="glyphicon glyphicon-list"> 履歴</a></li>
-                        <li><a href="#" class="glyphicon glyphicon-plus"> 登録</a></li>
-                        <li><a href="#" class="glyphicon glyphicon-edit"> フォーム編集</a></li>
+                        <li><a href="history.php" class="glyphicon glyphicon-list"> 履歴</a></li>
+                        <li><a href="register.php" class="glyphicon glyphicon-plus"> 登録</a></li>
+                        <li><a href="formEdit.php" class="glyphicon glyphicon-edit"> フォーム編集</a></li>
                     </ul>
                     <div class="nav navbar-nav navbar-right">
                         <span class="navbar-text">ユーザ名：PHP　太郎</span>
@@ -74,11 +74,11 @@
             <table id="pt_tbl" class="cell-border hover">
                 <thead>
                     <tr>
-                        <th>A</th>
-                        <th>B</th>
-                        <th>C</th>
-                        <th>D</th>
-                        <th>E</th>
+                        <th>登録日</th>
+                        <th>種類</th>
+                        <th>登録者</th>
+                        <th>状態</th>
+                        <th>更新日</th>
                     </tr>
                 </thead>
             </table>
