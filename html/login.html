@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+        body,p,form,input{
+            margin: 0
+        }
+        #form{
+            width: 300px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        form p{
+            font-size: 14px;
+        }
+
+        .form-title{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .id,.pass{
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 4px;
+            font-size: 14px;
+        }
+
+        .submit{
+            text-align: center;
+        }
+        .submit input[type="submit"] {
+            font-size: 18px;
+            padding: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <p class="form-title">タイトル</p>
+            <form action="menu.html" method="post">
+                <p>ID</p>
+                <p class="id"><input type="text" name="id" /></p>
+                <p>パスワード</p>
+                <p class="pass"><input type="password" name="pass" /></p>
+                <p class="submit"><input type="submit" value="ログイン" /></p>
+            </form>
+        </div>
+    </body>
+</html>

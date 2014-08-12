@@ -75,5 +75,4 @@
     </body>
 </html>-->
 <?php
-  header("HTTP/1.1 301 Moved Permanently");
-  header("Location: http://localhost/php-prototype001/history.php");
+  header("Location: http://localhost/php-prototype001/history.php",true,301);
