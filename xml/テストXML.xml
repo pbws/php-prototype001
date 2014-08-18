@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <parts row="1" type="textf">
+    <title>ああああ</title>
+  </parts>
+  <parts row="2" type="texta">
+    <title>いいいい</title>
+  </parts>
+  <parts row="3" type="label">
+    <title>ううううう</title>
+  </parts>
+  <parts row="4" type="radio">
+    <title>ええええ</title>
+    <options>
+      <option>かかか</option>
+      <option>ききき</option>
+      <option>くくく</option>
+    </options>
+  </parts>
+  <parts row="5" type="check">
+    <title>おおおお</title>
+    <options>
+      <option>さささ</option>
+      <option>ししし</option>
+      <option>すすす</option>
+    </options>
+  </parts>
+</root>

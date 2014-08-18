@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <parts row="1" type="label">
+    <title>個人情報</title>
+  </parts>
+  <parts row="2" type="textf">
+    <title>名前</title>
+  </parts>
+  <parts row="3" type="radio">
+    <title>性別</title>
+    <options>
+      <option>男</option>
+      <option>女</option>
+    </options>
+  </parts>
+  <parts row="4" type="check">
+    <title>好きなこと</title>
+    <options>
+      <option>寝る</option>
+      <option>遊ぶ</option>
+      <option>働く</option>
+      <option>その他</option>
+    </options>
+  </parts>
+  <parts row="5" type="texta">
+    <title>備考</title>
+  </parts>
+</root>

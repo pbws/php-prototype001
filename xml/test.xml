@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <parts type="textf">
+        <title>テキストフィールド1</title>
+    </parts>
+    <parts type="textf">
+        <title>テキストフィールド2</title>
+    </parts>
+    <parts type="textf">
+        <title>テキストフィールド3</title>
+    </parts>
+    <parts type="radio">
+        <title>ラジオボタン</title>
+        <options>
+            <option>ラジオ1</option>
+            <option>ラジオ2</option>
+            <option>ラジオ3</option>
+        </options>
+    </parts>
+    <parts type="check">
+        <title>チェックボックス</title>
+        <options>
+            <option>チェック1</option>
+            <option>チェック2</option>
+            <option>チェック3</option>
+        </options>
+    </parts>
+    <parts type="texta">
+        <title>テキストエリア</title>
+    </parts>
+    <parts type="label">
+        <title>ラベル</title>
+    </parts>
+</root>
